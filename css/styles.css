@@ -1,0 +1,34 @@
+/* =============================================
+   ESTILOS PERSONALIZADOS - EcoLife
+   ============================================= */
+
+/* Importar fuente moderna */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/* ===== Variables de color ===== */
+:root {
+  --color-primary: #28a745;
+  --color-secondary: #20c997;
+  --color-dark: #212529;
+  --color-light: #f8f9fa;
+}
+
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  color: var(--color-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header {
+  height: 70px;
+} */
