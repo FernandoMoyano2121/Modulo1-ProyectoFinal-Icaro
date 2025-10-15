@@ -43,3 +43,22 @@ a {
 .hero-section:hover {
   transform: scale(1.02);
 }
+
+/* ===== CLASE PERSONALIZADA 2: Custom List ===== */
+
+.custom-list {
+  list-style: none;
+  padding: 10px 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+.custom-list li::before {
+  content: "✓";
+
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+}
