@@ -29,6 +29,17 @@ a {
   text-decoration: none;
 }
 
-/* header {
-  height: 70px;
-} */
+/* ===== CLASE PERSONALIZADA 1: Hero Section ===== */
+
+.hero-section {
+  background-color: var(--color-primary);
+  /*  min-height: 400px; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.hero-section:hover {
+  transform: scale(1.02);
+}
